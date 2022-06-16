@@ -1,4 +1,3 @@
-from re import A
 from flask import Flask
 import requests
 from rhino3dm import *
