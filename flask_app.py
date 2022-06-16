@@ -7,10 +7,6 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello_world():
-    return 'Hello from Karson from UNSW CODE!'
-
-
 def game_1():
     fill = input("A Word: ")
     fill_again = input("Another Word: ")
